@@ -1,0 +1,50 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.background-image {
+  background-image: url("https://images.unsplash.com/photo-1466692476868-aef1dfb1e735");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.hero {
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+}
+
+.about-us-container {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 220px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: green;
+  color: white;
+}
